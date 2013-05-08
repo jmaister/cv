@@ -1,0 +1,137 @@
+%% start of file 'moderncv jordi.tex'.
+%% Copyright 2012-2013 Jordi Burgos (jordiburgos@gmail.com).
+%
+
+
+\documentclass[10pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                        % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                  % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                         % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+\setlength{\hintscolumnwidth}{2.5cm}           % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}      % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\firstname{Jorge}
+\familyname{Burgos L\'{o}pez}
+\title{Software engineer}               % optional, remove the line if not wanted
+\address{C/Doctor L\'{o}pez Trigo, 9-24}{46200 Paiporta (Valencia)}    % optional, remove the line if not wanted
+\mobile{+34 637 522 552}                     % optional, remove the line if not wanted
+%\phone{+2~(345)~678~901}                      % optional, remove the line if not wanted
+%\fax{+3~(456)~789~012}                        % optional, remove the line if not wanted
+\email{jordiburgos@gmail.com}                          % optional, remove the line if not wanted
+%\homepage{www.johndoe.com}                    % optional, remove the line if not wanted
+%\extrainfo{additional information}            % optional, remove the line if not wanted
+%\photo[64pt][0.4pt]{picture}                  % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Some quote (optional)}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                     % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Experiencia}
+\cventry{2006--Presente}{Ingeniero Software}{GFT IT Consulting, S.L.U.}{Valencia}{}{
+Multinational Company; 1500 employees; Information Technology and Services industry.
+\begin{itemize}%
+    \item Global Funds Derivatives Tracker: Capture fund derivatives business at Deutsche Bank. It is a repository of core funds, market data, derivatives, executed trades and documentation. Java, Spring, Hibernate, Oracle PL/SQL, HTML, CSS, Javascript, AJAX, ExtJS.
+    \begin{itemize}%
+        \item Agile methodology using Scrum to build technical solutions for banking applications.
+        \item Optimization of application at all levels: presentation, communications and database.
+        \item Identification and development of reusable components and code.
+        \item Adopt and implement Unit Testing.
+        \item Provice technical support to team members.
+    \end{itemize}
+    \item Legal Vehicle Database: Track legal entity population for tax reporting purposes at Deutsche Bank. Java, GWT, Hibernate, Oracle.
+    \begin{itemize}%
+        \item Rewrite the user interface of an inherited project using Google Web Toolkit (GWT).
+        \item Collaborated with software developers to deliver with adjusted deadline.
+    \end{itemize}
+    \item Multichannel Platform: Custom middleware that allows heterogeneous access to the bank mainframe resources of Bradesco Bank. Java, Eclipse Plug-in Development Environment.
+    \begin{itemize}%
+        \item Developed an Eclipse plugin which facilitate the location and communication of the processes that the platform of distribution of the channels exports or publishes.
+    \end{itemize}
+\end{itemize}
+}
+\cventry{2001--2005}{Programador Java}{Infoquip S.L.}{Valencia}{}{
+Local company; 5 workers; Computer material store and custom software development.
+\begin{itemize}%
+    \item Java Program Generator: Java application generator to cut delivery times. Java, Swing, JDBC, MySQL, HTML, CSS.
+    \begin{itemize}%
+        \item Design and develop code generation.
+        \item Develop a report generator, with viewer and printer.
+        \item Design database to store application information and configuration.
+    \end{itemize}
+    \item Sales point program for furniture company. Java, Swing, JDBC, MySQL.
+    \begin{itemize}%
+        \item Sales program for interconected stores.
+        \item Take client requeriments.
+        \item Develop application using generator and making modifications according to the client requirements.
+    \end{itemize}
+\end{itemize}
+}
+\cventry{1999--2000}{Prácticas de Formación Profesional}{Infoquip S.L.}{Valencia}{}{
+Local company; 5 workers; Computer material store and custom software development.\newline
+Internship, 250 Hours.
+\begin{itemize}%
+    \item Learn Java programming.
+    \item Build and configure PCs.
+    \item Build and configure networks.
+\end{itemize}
+}
+
+\section{Formación extra académica}
+\cvitemwithcomment{Jul-2012}{MongoDB for Java Developers}{M101J}
+\cvitemwithcomment{Jul-2012}{Object Oriented Analysis and Design with UML}{}
+\cvitemwithcomment{Nov-2010}{Oracle PL/SQL Developer Certified Associate}{OCA PL/SQL}
+\cvitemwithcomment{Jan-2009}{Sun Certified Programmer for the Java Platform SE 6}{SCJP 6.0}
+
+\section{Formación académica}
+\cventry{2004--2007}{Licenciado en Informática}{Universidad Politécnica}{Valencia}{}{}
+\cventry{2005}{ERASMUS}{University College of Engineering}{Odense, Denmark}{}{}
+\cventry{2000--2004}{Ingeniero Técnico Informática de Gestión}{Universidad Politécnica}{Valencia}{}{}
+\cventry{1997--2000}{FP2 Técnico Informática de Gestión}{I.E.S. El Cabañal}{Valencia}{}{}
+\cventry{1996--1997}{FP1 Auxiliar administrativo}{I.F.P. La Marxadella}{Torrente}{}{}
+\cventry{1995}{Graduado Escolar}{C.P. Ausiàs March}{Picaña}{}{}
+
+\section{Idiomas}
+\cvitemwithcomment{Inglés}{First Certificate English (FCE)}{Level B2 CEFR, Jul-2012}
+\cvitemwithcomment{Castellano}{Nativo}{}
+\cvitemwithcomment{Valenciano}{Nativo}{}
+
+\section{Skills}
+\cvitem{Lenguajes}{Java SE (J2SE), Java EE (J2EE), Python, scripting languages}
+\cvitem{Web}{GWT, AJAX, HTML, CSS, Javascript, JQuery, Prototype, Sencha Ext JS}
+\cvitem{Frameworks}{Spring, Spring MVC, Hibernate, Struts, iBatis}
+\cvitem{Base de datos}{Oracle SQL and PL/SQL, MySQL}
+\cvitem{Control de versiones}{Subversion (SVN), CVS, Git}
+\cvitem{Testing}{Unit testing, Integration Testing, JUnit, Selenium}
+\cvitem{Metodología}{Agile software development, Scrum, Test Driven Development}
+\cvitem{IDE}{Eclipse, NetBeans}
+\cvitem{Servidores}{Apache Tomcat, Jetty}
+\cvitem{Sistemas Operativos}{Linux, Windows}
+
+\end{document}
+
+
+%% end of file `template.tex'.
