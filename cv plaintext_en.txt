@@ -1,0 +1,59 @@
+Jordi Burgos López
+Software engineer
+C/Doctor López Trigo, 9-24
+46200 Paiporta (Valencia – Spain)
+
++34 637 522 552
+jordiburgos@gmail.com
+
+Experience
+2006–Present Java Software Engineer, GFT IT Consulting, S.L.U., Valencia.
+Global Funds Derivatives Tracker: Capture fund derivatives business at Deutsche Bank. It is a repository of core funds, market data, derivatives, executed trades and documentation.
+* Agile methodology using Scrum to build technical solutions for banking applications mainly with Java, Spring, Hibernate and Oracle.
+* Optimization of application at all levels: presentation, communications and database.
+* Identification and development of reusable components in the projects.
+* Adopt and implement Unit Testing.
+* Provide technical support to team members.
+Legal Vehicle Database: Track legal entity population for tax reporting purposes at Deutsche Bank.
+* Rewrite the user interface of an inherited project using Google Web Toolkit (GWT).
+* Collaborated with software developers to deliver with adjusted deadline.
+Multichannel Platform: Custom middleware that allows heterogeneous access to the bank mainframe resources of Bradesco Bank.
+* Developed an Eclipse plugin which facilitate the location and communication of the processes that the platform of distribution of the channels exports or publishes.
+
+2001–2005 Java Developer, Infoquip S.L., Valencia.
+* Developed a Java application generator to cut delivery times.
+* Management applications for business. Java, Swing, MySQL.
+
+1999–2000 Technical School internship, Infoquip S.L., Valencia.
+* Java programming, PC building, network building. 250 Hours.
+
+Professional certification
+Jul-2012 Object Oriented Analysis and Design with UML
+Nov-2010 Oracle PL/SQL Developer Certified Associate OCA PL/SQL
+Jan-2009 Sun Certified Programmer for the Java Platform SE 6 SCJP 6.0
+Present Preparing Oracle Advanced PL/SQL Developer OCP PL/SQL
+
+Education
+2004–2007 Master of Computer Science, Universidad Politécnica, Valencia, Spain.
+2005 ERASMUS grant, University College of Engineering, Odense, Denmark.
+2000–2004 Bachelor of Computer Science, Universidad Politécnica, Valencia, Spain.
+1997–2000 Technical School Management Information Systems, I.E.S. El Cabañal, Valencia, Spain.
+1996–1997 Technical School Administrative Assistant, I.F.P. La Marxadella, Torrente, Spain.
+1995 High School Graduated, C.P. Ausiàs March, Picaña, Spain.
+
+Languages
+English First Certificate English (FCE) Level B2 CEFR, Jul-2012
+Spanish Native
+Catalan Native
+
+Skills
+Languages Java SE (J2SE), Java EE (J2EE), Python, scripting languages
+Web GWT, AJAX, HTML, CSS, Javascript, JQuery, Prototype, Sencha Ext JS
+Frameworks Spring, Spring MVC, Hibernate, Struts, iBatis
+Databases Oracle SQL and PL/SQL, MySQL
+IDE Eclipse, NetBeans
+Version Control Subversion (SVN), CVS, Git
+Operating Systems Linux, Windows
+Servers Apache Tomcat, Jetty
+Testing Unit testing, Integration Testing, JUnit, Selenium
+Methodology Agile software development, Scrum, Test Driven Development

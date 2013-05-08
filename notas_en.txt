@@ -1,0 +1,90 @@
+Jordi Burgos López
+
+C/Doctor López Trigo, 9-24
+46200 Paiporta (Valencia – Spain)
+Phone: +34 637 522 552
+Email: jordiburgos@gmail.com
+
+EXPERIENCE
+
+09/01/2006 - PRESENT  GFT IT Consulting, S.L.U., Analyst-programmer
+
+
+01/10/2001 - 01/09/2005  Infoquip, S.L., Junior Programmer
+Java programmer
+
+1999-2000. Technical Scholl internship on Infoquip S.L. (250 hours)
+Java programmer, PC building, network building.
+
+EDUCATION
+
+2004-2007. Master's Degree in Computer Science, Universidad Politécnica de Valencia, Spain.
+2005. ERASMUS grant on University College of Engineering. Odense, Denmark.
+2000-2003. Bachelor's Degree in Computer Science, Universidad Politécnica de Valencia, Spain.
+1997-2000. Technical School Management Information Systems. I.E.S. El Cabañal, Valencia.
+1996-1997. Technical School Administrative Assistant. I.F.P. La Marxadella, Torrente (Valencia), Spain.
+1995. High School Graduated. C.P. Ausiàs March, Picaña (Valencia), Spain.
+
+
+PROFESIONAL CERTIFICATION
+
+26-NOV-2010 Oracle PL/SQL Developer Certified Associate
+23-JAN-2009 Sun Certified Programmer for the Java Platform SE 6
+
+LANGUAGES
+
+English - First Certificate English (FCE) Level B2
+Spanish - Native
+Catalan - Native
+
+SKILLS
+
+Languages: Java J2SE, J2EE, Python, scripting languages
+Web: AJAX, HTML, CSS, Javascript, JQuery, Prototype, Sencha Ext JS, Sencha GXT
+Databases: Oracle SQL and PL/SQL, MySQL
+IDE: Eclipse, NetBeans
+Source Control: Subversion, CVS, Git
+Operating Systems: Linux, Windows
+Servers: Apache Tomcat, Jetty
+Other: JUnit, Agile Programming, SCRUM
+
+
+
+
+
+23/07/2012 - 31/12/2012
+Legal Vehicle Database:
+Rewrite the UI of an inherited project with Google Web Toolkit (GWT).
+
+
+
+Global Funds Derivatives Tracker
+Java, Spring MVC, Hibernate, Oracle, AJAX, Javascript, HTML, JSP
+Structured Products Blotter. Global Funds Database Tracker.    
+
+
+01/05/2007 - 31/12/2007
+   
+Structured Products
+Spring; Ibatis; Ajax;     Structured Products database.
+   
+
+01/07/2006 - 30/04/2007
+   
+Multichannel Platform Bradesco:    Developed an Eclipse plugin which facilitate the location and communication of the processes that the platform of distribution of the channels exports or publishes.
+   
+
+
+Infoquip, S.L.
+   
+01/01/2003 - 31/12/2005
+Security installations management and billing application:
+Management of security installations and systems for company clients. Billing for the maintenance of the installed systems.    
+   
+01/10/2001 - 31/12/2005
+Java Program Generator:
+A program generator for management and financial applications. Developed a code generation engine with a code editor. Database designer for the generation engine. Developed a report generator.
+
+01/10/2001 - 31/12/2005
+Sales point program for furniture company:
+Program for sales point in various stores of a furniture company. Creation of the application using the previous generator and making modifications according to the client requirements.     
