@@ -16,14 +16,17 @@
 %\usepackage{CJKutf8}                         % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
 % adjust the page margins
-\usepackage[scale=0.85]{geometry}
+\usepackage[scale=0.75]{geometry}
 \setlength{\hintscolumnwidth}{2.5cm}           % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}      % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+
+\usepackage[none]{hyphenat}
 
 % personal data
 \firstname{Jorge}
 \familyname{Burgos López}
-%\title{Software engineer}               % optional, remove the line if not wanted
+\title{Ingeniero Software}               % optional, remove the line if not wanted
 \address{C/Doctor L\'{o}pez Trigo, 9-24}{46200 Paiporta (Valencia)}    % optional, remove the line if not wanted
 \mobile{+34 637 522 552}                     % optional, remove the line if not wanted
 %\phone{+2~(345)~678~901}                      % optional, remove the line if not wanted
@@ -52,59 +55,44 @@
 
 \section{Experiencia}
 \cventry{2006--Presente}{Ingeniero Software}{GFT IT Consulting, S.L.U.}{Valencia}{}{
-Multinacional; 1500 empleados; IT.
+Multinacional; 1500 empleados; Tecnología de la Información (IT).
 \begin{itemize}%
-    \item Global Funds Derivatives Tracker: Administración del negocio de derivados de fondos en Deutsche Bank. Repositorio de fondos, market data, derivados, trades ejecutados y documentación. Java, Spring, Hibernate, Oracle PL/SQL, HTML, CSS, Javascript, AJAX, ExtJS.
-%    \begin{itemize}%
- %       \item Agile methodology using Scrum to build technical solutions for banking applications.
-%        \item Optimization of application at all levels: presentation, communications and database.
-%        \item Identification and development of reusable components and code.
-%        \item Adopt and implement Unit Testing.
-%        \item Provice technical support to team members.
-%    \end{itemize}
-    \item Legal Vehicle Database: Seguimiento impuestos de entidades legales para creación de informes en  Deutsche Bank. Java, GWT, Hibernate, Oracle.
-%    \begin{itemize}%
-%        \item Rewrite the user interface of an inherited project using Google Web Toolkit (GWT).
-%        \item Collaborated with software developers to deliver with adjusted deadline.
-%    \end{itemize}
-    \item Multichannel Platform: Herramientas para el acceso heterogéneo a los recursos centrales bancarios de Banco Bradesco. Java, Eclipse Plug-in Development Environment.
-%    \begin{itemize}%
-%        \item Developed an Eclipse plugin which facilitate the location and communication of the processes that the platform of distribution of the channels exports or publishes.
-%    \end{itemize}
+    \item Global Funds Derivatives Tracker: Administración del negocio de fondos y derivados. Repositorio de fondos, market data, derivados, trades ejecutados y documentación. Java, Spring, Hibernate, Oracle PL/SQL, HTML, CSS, Javascript, AJAX, ExtJS.
+    \begin{itemize}%
+        \item Optimizar la aplicación a todos los niveles: presentación, comunicaciones y base de datos.
+        \item Usar la metodología Agile con Scrum.
+		\item Identificar y desarrollar componentes y código reutilizable.
+		\item Introducir e implementar Unit Testing.
+		\item Proporcionar soporte técnico a otros miembros del equipo.
+    \end{itemize}
+    \item Legal Vehicle Database: Seguimiento impuestos a entidades legales para creación de informes. Java, GWT, Hibernate, Oracle.
+    \begin{itemize}%
+		\item Reescribir el interfaz de un proyecto heredado utilizando Google Web Toolkit (GWT).
+    \end{itemize}
+    \item Multichannel Platform: Herramientas para el acceso a los recursos centrales bancarios. Java, Eclipse Plug-in Development Environment.
+    \begin{itemize}%
+		\item Desarrollar un plugin Eclipse para facilitar la localización y comunicación de procesos.
+    \end{itemize}
 \end{itemize}
 }
 \cventry{2001--2005}{Programador Java}{Infoquip S.L.}{Valencia}{}{
 Empresa local; 5 empleados; Material informático y desarrollo de software a medida.
 \begin{itemize}%
-    \item Java Program Generator: Generador de código Java para aplicaciones de gestión. Java, Swing, JDBC, MySQL, HTML, CSS.
-%    \begin{itemize}%
-%        \item Design and develop code generation.
-%        \item Develop a report generator, with viewer and printer.
-%        \item Design database to store application information and configuration.
-%    \end{itemize}
-    \item TPV para empresas de muebles. Java, Swing, JDBC, MySQL.
-%    \begin{itemize}%
-%        \item Sales program for interconected stores.
-%        \item Take client requeriments.
-%        \item Develop application using generator and making modifications according to the client requirements.
-%    \end{itemize}
+    \item Java Program Generator: Generador de aplicaciones Java para gestión. Java, Swing, JDBC, MySQL, HTML, CSS.
+    \begin{itemize}%
+		\item Diseñar y desarrollar un generador de código fuente.
+		\item Desarrollar un generador y visor de informes.
+		\item Diseñar la base de datos para la configuración de proyectos.
+    \end{itemize}
+    \item TPV para tiendas de muebles interconectadas. Java, Swing, JDBC, MySQL.
+    \begin{itemize}%
+		\item Desarrollar la aplicación utilizando el generador y realizar las modificaciones requeridas por el cliente.
+    \end{itemize}
 \end{itemize}
 }
 \cventry{1999--2000}{Prácticas de Formación Profesional}{Infoquip S.L.}{Valencia}{}{
-Empresa local; 5 empleados; Material informático y desarrollo de software a medida.\newline
-%Prácticas, 250 Hours.
-%\begin{itemize}%
-%    \item Learn Java programming.
-%    \item Build and configure PCs.
-%    \item Build and configure networks.
-%\end{itemize}
+Empresa local; 5 empleados; Material informático y desarrollo de software a medida.
 }
-
-\section{Formación Complementaria}
-\cvitemwithcomment{Abr-2013}{MongoDB for Java Developers}{M101J}
-\cvitemwithcomment{Jul-2012}{Object Oriented Analysis and Design with UML}{}
-\cvitemwithcomment{Nov-2010}{Oracle PL/SQL Developer Certified Associate}{OCA PL/SQL}
-\cvitemwithcomment{Ene-2009}{Sun Certified Programmer for the Java Platform SE 6}{SCJP 6.0}
 
 \section{Formación académica}
 \cventry{2004--2007}{Licenciado en Informática}{Universidad Politécnica}{Valencia}{}{}
@@ -118,6 +106,12 @@ Empresa local; 5 empleados; Material informático y desarrollo de software a med
 \cvitemwithcomment{Inglés}{First Certificate English (FCE)}{Level B2 CEFR, Jul-2012}
 \cvitemwithcomment{Castellano}{Nativo}{}
 \cvitemwithcomment{Valenciano}{Nativo}{}
+
+\section{Formación Complementaria}
+\cvitemwithcomment{Abr-2013}{MongoDB for Java Developers}{M101J}
+\cvitemwithcomment{Jul-2012}{Object Oriented Analysis and Design with UML}{}
+\cvitemwithcomment{Mar-2011}{Oracle PL/SQL Developer Certified Associate}{OCA PL/SQL}
+\cvitemwithcomment{Ene-2009}{Sun Certified Programmer for the Java Platform SE 6}{SCJP 6.0}
 
 \section{Habilidades}
 \cvitem{Lenguajes}{Java SE (J2SE), Java EE (J2EE), Python, scripting languages}
