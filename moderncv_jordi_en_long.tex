@@ -1,0 +1,160 @@
+%% start of file 'moderncv jordi.tex'.
+%% Copyright 2012-2013 Jordi Burgos (jordiburgos@gmail.com).
+%
+
+
+\documentclass[10pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                        % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                  % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                         % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.83]{geometry}
+\setlength{\hintscolumnwidth}{2.3cm}           % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}      % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\firstname{Jordi}
+\familyname{Burgos L\'{o}pez}
+\title{Software engineer}               % optional, remove the line if not wanted
+\address{C/Doctor L\'{o}pez Trigo, 9-24}{46200 Paiporta (Valencia – Spain)}    % optional, remove the line if not wanted
+%\mobile{+34 000 000 000}                     % optional, remove the line if not wanted
+%\phone{+2~(345)~678~901}                      % optional, remove the line if not wanted
+%\fax{+3~(456)~789~012}                        % optional, remove the line if not wanted
+\email{jordiburgos@gmail.com}                          % optional, remove the line if not wanted
+\homepage{http://jordiburgos.com}                    % optional, remove the line if not wanted
+%\extrainfo{additional information}            % optional, remove the line if not wanted
+%\photo[64pt][0.4pt]{picture}                  % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Some quote (optional)}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                     % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Experience}
+\cventry{2006--Present}{Java Software Engineer}{GFT IT Consulting, S.L.U.}{Valencia}{}{
+Multinational Company; 2000 employees; Information Technology and Services industry.
+\begin{itemize}%
+    \item \textbf{P\&L Calculation} (02/2014-Present): Profit and loss calculations and adjustments for an investment bank. Java, GWT, Sencha GXT, Hibernate, Oracle.
+    \begin{itemize}%
+        \item Develop the UI with Google Web Toolkit (GWT) and Sencha GXT components.
+        \item Implement custom UI components based on User Experience (UX) team designs.
+    \end{itemize}
+    \item \textbf{Feed Consolidation Layer} (05/2013-02/2014): ETL project to fetch data from several sources in their proprietary formats into a unified data representation. Java, Oracle, OpenAdaptor, Maven, TeamCity.
+    \begin{itemize}%
+        \item Take over the ownership of 3 Java application and one Java Applet from another vendor.
+        \item Improve feed processing performance to increase message volume with the same infrastructure by means of optimized Java and PL/SQL code.
+        \item Analyse and set the Software Development Life-Cycle (SDLC) for Source Control (SVN, Sonar), Build Tools (Maven), Binary Control (Maven Repository), Release Automation (Shell scripts), Automated Testing (JUnit) and Continuous Integration (TeamCity).
+        \item Design and implement the Release Automation plan.
+        \item Manage the TeamCity continuous integration environment.
+        \item Colaborate with On-Call team to resolve application and data issues.
+    \end{itemize}
+    \item \textbf{Legal Vehicle Database} (01/2013-05/2013): Track legal entity population for tax reporting purposes at an investment bank. Java, GWT, Hibernate, Oracle.
+    \begin{itemize}%
+        \item Rewrite the user interface of an inherited project using Google Web Toolkit (GWT).
+        \item Refactor the Java code to reduce complexity.
+        \item Improve performance of SQL queries to the Oracle database.
+        \item Collaborate with software developers to deliver with adjusted deadline.
+    \end{itemize}
+    \item \textbf{Global Funds Derivatives Tracker} (01/2007-12/2012): Capture fund derivatives business of an investment bank. It is a repository of core funds, market data, derivatives, executed trades and documentation. Java, Spring, Hibernate, Oracle PL/SQL, JSP, HTML, CSS, JavaScript, AJAX, ExtJS.
+    \begin{itemize}%
+        \item Agile methodology using Scrum to build technical solutions for banking applications.
+        \item Develop the User Interface using JSP helped with ExtJS components.
+        \item Create reusable visual components using JavaScript, HTML, CSS, for speeding up and ease screen development.
+        \item Fix JavaScript interactions with components as the application got bigger.
+        \item Optimize application performance communicating the UI with the server via AJAX.
+        \item Adopt and implement Unit Testing using JUnit to achieve the maximum coverage.
+        \item Develop the application back end with Spring MVC framework and Hibernate.
+        \item Improve performance of SQL queries to the Oracle database.
+        \item Provide technical support to team members.
+    \end{itemize}
+    \item \textbf{Multichannel Platform} (02/2006-01/2007): Custom middleware that allows heterogeneous access to the bank mainframe resources of an investment bank. Java, Eclipse Plug-in Development Environment.
+    \begin{itemize}%
+        \item Develop an Eclipse plugin which facilitate the location and communication of the processes that the platform of distribution of the channels exports or publishes.
+        \item Design the UI components using Eclipse SWT widgets, making them reusable over the project.
+    \end{itemize}
+\end{itemize}
+}
+\cventry{2001--2005}{Java Developer}{Infoquip S.L.}{Valencia}{}{
+Local company; 5 workers; Computer material store and custom software development.
+\begin{itemize}%
+    \item \textbf{Java Program Generator}: Java application generator to cut delivery times. Java, Swing, JDBC, MySQL, HTML, CSS.
+    \begin{itemize}%
+        \item Design and develop the engine for code generation.
+        \item Develop an automatic report generator, with viewer and printer.
+        \item Design database to store application information and configuration.
+    \end{itemize}
+    \item \textbf{Sales point program} for furniture company. Java, Swing, JDBC, MySQL.
+    \begin{itemize}%
+        \item Sales program for interconnected stores.
+        \item Take client requirements.
+        \item Develop application using generator and adapt according to the client requirements.
+    \end{itemize}
+\end{itemize}
+}
+\cventry{1999--2000}{Technical School internship}{Infoquip S.L.}{Valencia}{}{
+Local company; 5 workers; Computer material store and custom software development.\newline
+\textbf{Internship}, 250 Hours.
+\begin{itemize}%
+    \item Learn Java programming.
+    \item Build and configure PCs.
+    \item Build and configure networks.
+\end{itemize}
+}
+
+\section{Professional certification}
+\cvitemwithcomment{Jul-2012}{Object Oriented Analysis and Design with UML}{}
+\cvitemwithcomment{Nov-2010}{Oracle PL/SQL Developer Certified Associate}{OCA PL/SQL}
+\cvitemwithcomment{Jan-2009}{Sun Certified Programmer for the Java Platform SE 6}{SCJP 6.0}
+%\cvitemwithcomment{Present}{Preparing Oracle Advanced PL/SQL Developer}{OCP PL/SQL}
+
+\section{Education}
+\cventry{2004--2007}{Master of Computer Science}{Universidad Polit\'{e}cnica}{Valencia, Spain}{}{}
+\cventry{2005}{ERASMUS grant}{University College of Engineering}{Odense, Denmark}{}{}
+\cventry{2000--2004}{Bachelor of Computer Science}{Universidad Polit\'{e}cnica}{Valencia, Spain}{}{}
+\cventry{1997--2000}{Technical School Management Information Systems}{I.E.S. El Caba\~{n}al}{Valencia, Spain}{}{}
+\cventry{1996--1997}{Technical School Administrative Assistant}{I.F.P. La Marxadella}{Torrente, Spain}{}{}
+\cventry{1995}{High School Graduated}{C.P. Ausi\`{a}s March}{Pica\~{n}a, Spain}{}{}
+
+\section{Languages}
+\cvitemwithcomment{English}{First Certificate English (FCE)}{Level B2 CEFR, Jul-2012}
+\cvitemwithcomment{Spanish}{Native}{}
+\cvitemwithcomment{Catalan}{Native}{}
+
+\section{Skills}
+\cvitem{Languages}{Java SE (J2SE), Java EE (J2EE), Python + Django, Shell, scripting languages}
+\cvitem{Web}{GWT, AJAX, HTML, CSS, JavaScript, JQuery, Prototype, Sencha Ext JS}
+\cvitem{Frameworks}{Spring, Spring MVC, Hibernate, Struts, iBatis}
+\cvitem{Databases}{Oracle SQL and PL/SQL, MySQL}
+\cvitem{Version Control}{Subversion (SVN), CVS, Git}
+\cvitem{Testing}{Unit testing, Integration Testing, JUnit, Selenium}
+\cvitem{Methodology}{Agile software development, Scrum, Test Driven Development}
+\cvitem{IDE}{Eclipse, NetBeans}
+\cvitem{Servers}{Apache Tomcat, Jetty}
+\cvitem{Operating Systems}{Linux, Windows}
+\cvitem{Build Tools}{Maven}
+\cvitem{Continuous Integration}{Jenkins, TeamCity}
+
+\end{document}
+
+
+%% end of file `template.tex'.
