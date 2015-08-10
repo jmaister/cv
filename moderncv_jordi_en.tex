@@ -1,5 +1,5 @@
 %% start of file 'moderncv jordi.tex'.
-%% Copyright 2012-2013 Jordi Burgos (jordiburgos@gmail.com).
+%% Copyright 2012-2015 Jordi Burgos (jordiburgos@gmail.com).
 %
 
 
@@ -24,7 +24,7 @@
 \firstname{Jordi}
 \familyname{Burgos L\'{o}pez}
 \title{Software engineer}               % optional, remove the line if not wanted
-\address{C/Doctor L\'{o}pez Trigo, 9-24}{46200 Paiporta (Valencia – Spain)}    % optional, remove the line if not wanted
+%\address{5th Street St}{46200 Somewhere - Spain}    % optional, remove the line if not wanted
 %\mobile{+34 000 000 000}                     % optional, remove the line if not wanted
 %\phone{+2~(345)~678~901}                      % optional, remove the line if not wanted
 %\fax{+3~(456)~789~012}                        % optional, remove the line if not wanted
@@ -51,8 +51,23 @@
 \makecvtitle
 
 \section{Experience}
-\cventry{2006--Present}{Java Software Engineer}{GFT IT Consulting, S.L.U.}{Valencia}{}{
-Multinational Company; 2000 employees; Information Technology and Services industry.
+
+\cventry{2014--Present}{Software Engineer}{IBM Ireland}{Dublin}{}{
+Multinational Company; 400.000 employees; IT consulting.
+\begin{itemize}%
+    \item \textbf{HR suite project}: Software suite for HR related applications. Java, REST, JPA, JAX-RS, HTML, CSS, JavaScript, AngularJS.
+    \begin{itemize}%
+        \item Develop user interface with connection to the REST back-end.
+        \item Develop back-end REST services with JAX-RS and JPA.
+        \item Investigate and select the best technologies suitable for the project.
+        \item Collaborate with User Experience (UX) team on the design of interface.
+        \item Work using Agile methodology.
+    \end{itemize}
+\end{itemize}
+}
+
+\cventry{2006--2014}{Java Software Engineer}{GFT IT Consulting, S.L.U.}{Valencia}{}{
+Multinational Company; 2000 employees; IT and Services industry.
 \begin{itemize}%
     \item \textbf{Global Funds Derivatives Tracker}: Capture fund derivatives business at Deutsche Bank. It is a repository of core funds, market data, derivatives, executed trades and documentation. Java, Spring, Hibernate, Oracle PL/SQL, HTML, CSS, JavaScript, AJAX, ExtJS.
     \begin{itemize}%
@@ -78,8 +93,9 @@ Multinational Company; 2000 employees; Information Technology and Services indus
     \end{itemize}
 \end{itemize}
 }
+
 \cventry{2001--2005}{Java Developer}{Infoquip S.L.}{Valencia}{}{
-Local company; 5 workers; Computer material store and custom software development.
+Local company; 5 employees; Computer material store and custom software development.
 \begin{itemize}%
     \item \textbf{Java Program Generator}: Java application generator to cut delivery times. Java, Swing, JDBC, MySQL, HTML, CSS.
     \begin{itemize}%
@@ -95,21 +111,23 @@ Local company; 5 workers; Computer material store and custom software developmen
     \end{itemize}
 \end{itemize}
 }
+
 \cventry{1999--2000}{Technical School internship}{Infoquip S.L.}{Valencia}{}{
-Local company; 5 workers; Computer material store and custom software development.\newline
+Local company; 5 employees; Computer material store and custom software development.\newline
 \textbf{Internship}, 250 Hours.
 \begin{itemize}%
     \item Learn Java programming.
-    \item Build and configure PCs.
-    \item Build and configure networks.
+    \item Build and configure PCs and Networks.
 \end{itemize}
 }
 
+
 \section{Professional certification}
+\cvitemwithcomment{Abr-2013}{MongoDB for Java Developers}{M101J}
 \cvitemwithcomment{Jul-2012}{Object Oriented Analysis and Design with UML}{}
 \cvitemwithcomment{Nov-2010}{Oracle PL/SQL Developer Certified Associate}{OCA PL/SQL}
 \cvitemwithcomment{Jan-2009}{Sun Certified Programmer for the Java Platform SE 6}{SCJP 6.0}
-%\cvitemwithcomment{Present}{Preparing Oracle Advanced PL/SQL Developer}{OCP PL/SQL}
+
 
 \section{Education}
 \cventry{2004--2007}{Master of Computer Science}{Universidad Polit\'{e}cnica}{Valencia, Spain}{}{}
@@ -119,6 +137,7 @@ Local company; 5 workers; Computer material store and custom software developmen
 \cventry{1996--1997}{Technical School Administrative Assistant}{I.F.P. La Marxadella}{Torrente, Spain}{}{}
 \cventry{1995}{High School Graduated}{C.P. Ausi\`{a}s March}{Pica\~{n}a, Spain}{}{}
 
+
 \section{Languages}
 \cvitemwithcomment{English}{First Certificate English (FCE)}{Level B2 CEFR, Jul-2012}
 \cvitemwithcomment{Spanish}{Native}{}
@@ -126,16 +145,16 @@ Local company; 5 workers; Computer material store and custom software developmen
 
 \section{Skills}
 \cvitem{Languages}{Java SE (J2SE), Java EE (J2EE), Python, Shell, scripting languages}
-\cvitem{Web}{GWT, AJAX, HTML, CSS, JavaScript, JQuery, Prototype, Sencha Ext JS}
+\cvitem{Web}{REST, AJAX, HTML, CSS, JavaScript, JQuery, AngularJS, Prototype, Sencha Ext JS, GWT}
 \cvitem{Frameworks}{Spring, Spring MVC, Hibernate, Struts, iBatis}
 \cvitem{Databases}{Oracle SQL and PL/SQL, MySQL}
-\cvitem{Version Control}{Subversion (SVN), CVS, Git}
+\cvitem{Version Control}{Subversion (SVN), CVS, Git, RTC}
 \cvitem{Testing}{Unit testing, Integration Testing, JUnit, Selenium}
 \cvitem{Methodology}{Agile software development, Scrum, Test Driven Development}
 \cvitem{IDE}{Eclipse, NetBeans}
-\cvitem{Servers}{Apache Tomcat, Jetty}
+\cvitem{Servers}{WebSphere, Apache Tomcat, Jetty}
 \cvitem{Operating Systems}{Linux, Windows}
-\cvitem{Build Tools}{Maven}
+\cvitem{Build Tools}{Maven, Gradle}
 \cvitem{Continuous Integration}{Jenkins, Teamcity}
 
 \end{document}
