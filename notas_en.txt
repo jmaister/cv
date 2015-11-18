@@ -1,7 +1,7 @@
-Jordi Burgos López
+Jordi Burgos LÃ³pez
 
-C/Doctor López Trigo, 9-24
-46200 Paiporta (Valencia – Spain)
+C/Doctor LÃ³pez Trigo, 9-24
+46200 Paiporta (Valencia â€“ Spain)
 
 Email: jordiburgos@gmail.com
 
@@ -18,12 +18,12 @@ Java programmer, PC building, network building.
 
 EDUCATION
 
-2004-2007. Master's Degree in Computer Science, Universidad Politécnica de Valencia, Spain.
+2004-2007. Master's Degree in Computer Science, Universidad PolitÃ©cnica de Valencia, Spain.
 2005. ERASMUS grant on University College of Engineering. Odense, Denmark.
-2000-2003. Bachelor's Degree in Computer Science, Universidad Politécnica de Valencia, Spain.
-1997-2000. Technical School Management Information Systems. I.E.S. El Cabañal, Valencia.
+2000-2003. Bachelor's Degree in Computer Science, Universidad PolitÃ©cnica de Valencia, Spain.
+1997-2000. Technical School Management Information Systems. I.E.S. El CabaÃ±al, Valencia.
 1996-1997. Technical School Administrative Assistant. I.F.P. La Marxadella, Torrente (Valencia), Spain.
-1995. High School Graduated. C.P. Ausiàs March, Picaña (Valencia), Spain.
+1995. High School Graduated. C.P. AusiÃ s March, PicaÃ±a (Valencia), Spain.
 
 
 PROFESIONAL CERTIFICATION
@@ -41,12 +41,12 @@ SKILLS
 
 Languages: Java J2SE, J2EE, Python, scripting languages
 Web: AJAX, HTML, CSS, Javascript, JQuery, Prototype, Sencha Ext JS, Sencha GXT
-Databases: Oracle SQL and PL/SQL, MySQL
-IDE: Eclipse, NetBeans
-Source Control: Subversion, CVS, Git
-Operating Systems: Linux, Windows
-Servers: Apache Tomcat, Jetty
-Other: JUnit, Agile Programming, SCRUM
+Databases:Â Oracle SQL and PL/SQL, MySQL
+IDE:Â Eclipse, NetBeans
+Source Control: Subversion,Â CVS, Git
+Operating Systems:Â Linux, Windows
+Servers:Â Apache Tomcat, Jetty
+Other:Â JUnit, Agile Programming, SCRUM
 
 
 
