@@ -1,5 +1,5 @@
 %% start of file 'moderncv jordi.tex'.
-%% Copyright 2012-2013 Jordi Burgos (jordiburgos@gmail.com).
+%% Copyright 2012-2018 Jordi Burgos (jordiburgos@gmail.com).
 %
 
 
@@ -8,7 +8,7 @@
 % moderncv themes
 \moderncvstyle{classic}                        % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{blue}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
-%\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 %\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
 
 % character encoding
@@ -16,18 +16,19 @@
 %\usepackage{CJKutf8}                         % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
 % adjust the page margins
-\usepackage[scale=0.75]{geometry}
+%\usepackage[scale=0.79]{geometry}
+\usepackage[left=2cm,right=2.5cm,top=3cm,bottom=2.5cm]{geometry}
 \setlength{\hintscolumnwidth}{2.5cm}           % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}      % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 
-\usepackage[none]{hyphenat}
+%\usepackage[none]{hyphenat}
 
 % personal data
-\firstname{Jorge}
-\familyname{Burgos López}
-\title{Ingeniero Software}               % optional, remove the line if not wanted
-\address{C/Doctor L\'{o}pez Trigo, 9-24}{46200 Paiporta (Valencia)}    % optional, remove the line if not wanted
+\firstname{Jordi}
+\familyname{Burgos L\'{o}pez}
+\title{Senior Software Engineer}               % optional, remove the line if not wanted
+%\address{C/Doctor L\'{o}pez Trigo, 9-24}{46200 Paiporta (Valencia)}    % optional, remove the line if not wanted
 %\mobile{+34 000 000 000}                     % optional, remove the line if not wanted
 %\phone{+2~(345)~678~901}                      % optional, remove the line if not wanted
 %\fax{+3~(456)~789~012}                        % optional, remove the line if not wanted
@@ -54,27 +55,64 @@
 \makecvtitle
 
 \section{Experiencia}
-\cventry{2006--Presente}{Ingeniero Software}{GFT IT Consulting, S.L.U.}{Valencia}{}{
-Multinacional; 1500 empleados; Tecnología de la Información (IT).
+
+\cventry{2016--Presente}{Senior Software Engineer}{SAP}{Dublín, Irlanda}{}{
+Multinacional; 85.000 empleados; Gestión empresarial y Consultoría.
 \begin{itemize}%
-    \item Global Funds Derivatives Tracker: Administración del negocio de fondos y derivados. Repositorio de fondos, market data, derivados, trades ejecutados y documentación. Java, Spring, Hibernate, Oracle PL/SQL, HTML, CSS, Javascript, AJAX, ExtJS.
+    \item \textbf{Predictive Analytics}: Software para diseñar gráficamente procesos de datos con Machine Learning y Big Data. Java, JavaScript, TypeScript, Webpack, SAP HANA database, SAP UI5.
     \begin{itemize}%
+        \item Diseñar e implementar la interfaz de usuario con Webpack y SAP UI5.
+		\item Implementar la funcionalidad de la aplicación con Typescript.
+		\item Formar y supervisar a los desarrolladores junior del equipo.
+		\item Investigar y resolver defectos en el código del servidor.
+		\item Identificar mejoras de la plataforma y documentarlas.
+    \end{itemize}
+\end{itemize}
+}
+
+\cventry{2014--2016}{Software Engineer}{IBM}{Dublín, Irlanda}{}{
+Multinacional; 400.000 empleados; IT consulting.
+\begin{itemize}%
+    \item \textbf{HR suite project}: Conjunto de aplicaciones relacionadas con el área de Recursos Humanos. Java, REST, JPA, JAX-RS, HTML, CSS, JavaScript, AngularJS, IBM WebSphere, Linux.
+    \begin{itemize}%
+        \item Diseñar e implementar la arquitectura de los servicios REST con JAX-RS y JPA sobre WebSphere.
+        \item Diseñar e implementar la interfaz de usuario conectando con el servidor REST.
+        \item Investigar y seleccionar las mejores tecnologías adecuadas para el proyecto.
+        \item Colaborar con el equipo de User Experience (UX) en el diseño de la interfaz.
+        \item Trabajar utilizando metodolodías Agile y Test Driven.
+    \end{itemize}
+\end{itemize}
+}
+
+\cventry{2006--2014}{Ingeniero Software}{GFT IT Consulting, S.L.U.}{Valencia}{}{
+Multinacional; 4.800 empleados; Tecnología de la Información (IT).
+\begin{itemize}%
+    \item \textbf{Global Funds Derivatives Tracker}: Administración del negocio de fondos y derivados. Repositorio de fondos, market data, derivados, trades ejecutados y documentación. Java, Spring, Hibernate, Oracle PL/SQL, HTML, CSS, Javascript, AJAX, ExtJS.
+    \begin{itemize}%
+        \item Crear soluciones técnicas para aplicaciones de banca utilizando metodología Agile y Scrum.
+        \item Crear componentes y código reutilizables para incrementar el rendimiento de los desarrolladores.
         \item Optimizar la aplicación a todos los niveles: presentación, comunicaciones y base de datos.
-        \item Usar la metodología Agile con Scrum.
-		\item Identificar y desarrollar componentes y código reutilizable.
 		\item Introducir e implementar Unit Testing.
 		\item Proporcionar soporte técnico a otros miembros del equipo.
     \end{itemize}
-    \item Legal Vehicle Database: Seguimiento impuestos a entidades legales para creación de informes. Java, GWT, Hibernate, Oracle.
+    \item \textbf{Feed Consolidation Layer}: Proyecto ETL para obtener datos de diferentes fuentes con formatos propietarios y unificarlos. Java,  Oracle PL/SQL, OpenAdaptor, Maven, Teamcity, Linux.
+    \begin{itemize}%
+        \item Mejorar el rendimiento del proceso de datos para incrementar el volumen de mensajes con la misma infraestructura.
+        \item Diseñar y desplegar la aplicación en servidores Linux.
+        \item Analizar y mejorar el Software Development Life-Cycle (SDLC) para Source Control, Build Tools, Binary Control, Release Automation, Automated Testing and Continuous Integration.
+    \end{itemize}
+    \item \textbf{Legal Vehicle Database}: Seguimiento de tasas a entidades legales para creación de informes. Java, GWT, Hibernate, Oracle.
     \begin{itemize}%
 		\item Reescribir el interfaz de un proyecto heredado utilizando Google Web Toolkit (GWT).
+        \item Colaborar con los desarrolladores para entregar a tiempo con fechas ajustadas.
     \end{itemize}
-    \item Multichannel Platform: Herramientas para el acceso a los recursos centrales bancarios. Java, Eclipse Plug-in Development Environment.
+    \item \textbf{Multichannel Platform}: Herramientas para el acceso a los recursos centrales bancarios. Java, Eclipse Plug-in Development Environment.
     \begin{itemize}%
 		\item Desarrollar un plugin Eclipse para facilitar la localización y comunicación de procesos.
     \end{itemize}
 \end{itemize}
 }
+
 \cventry{2001--2005}{Programador Java}{Infoquip S.L.}{Valencia}{}{
 Empresa local; 5 empleados; Material informático y desarrollo de software a medida.
 \begin{itemize}%
@@ -86,13 +124,26 @@ Empresa local; 5 empleados; Material informático y desarrollo de software a med
     \end{itemize}
     \item TPV para tiendas de muebles interconectadas. Java, Swing, JDBC, MySQL.
     \begin{itemize}%
+        \item Programa de ventas para conectar diferentes tiendas.
+        \item Obtener los requerimientos del cliente.
 		\item Desarrollar la aplicación utilizando el generador y realizar las modificaciones requeridas por el cliente.
     \end{itemize}
 \end{itemize}
 }
+
 \cventry{1999--2000}{Prácticas de Formación Profesional}{Infoquip S.L.}{Valencia}{}{
 Empresa local; 5 empleados; Material informático y desarrollo de software a medida.
+\begin{itemize}%
+    \item Aprender el lenguaje Java. Montar y configurar PCs y redes.
+\end{itemize}
 }
+
+\section{Certificaciones}
+\cvitemwithcomment{Sep-2016}{Machine Learning by Stanford University on Coursera}{}                                    
+\cvitemwithcomment{Abr-2013}{MongoDB for Java Developers}{M101J}
+\cvitemwithcomment{Jul-2012}{Object Oriented Analysis and Design with UML}{}
+\cvitemwithcomment{Mar-2011}{Oracle PL/SQL Developer Certified Associate}{OCA PL/SQL}
+\cvitemwithcomment{Ene-2009}{Sun Certified Programmer for the Java Platform SE 6}{SCJP 6.0}
 
 \section{Formación académica}
 \cventry{2004--2007}{Licenciado en Informática}{Universidad Politécnica}{Valencia}{}{}
@@ -107,23 +158,19 @@ Empresa local; 5 empleados; Material informático y desarrollo de software a med
 \cvitemwithcomment{Castellano}{Nativo}{}
 \cvitemwithcomment{Valenciano}{Nativo}{}
 
-\section{Formación Complementaria}
-\cvitemwithcomment{Abr-2013}{MongoDB for Java Developers}{M101J}
-\cvitemwithcomment{Jul-2012}{Object Oriented Analysis and Design with UML}{}
-\cvitemwithcomment{Mar-2011}{Oracle PL/SQL Developer Certified Associate}{OCA PL/SQL}
-\cvitemwithcomment{Ene-2009}{Sun Certified Programmer for the Java Platform SE 6}{SCJP 6.0}
-
 \section{Habilidades}
-\cvitem{Lenguajes}{Java SE (J2SE), Java EE (J2EE), Python, scripting languages}
-\cvitem{Web}{GWT, AJAX, HTML, CSS, Javascript, JQuery, Prototype, Sencha Ext JS}
-\cvitem{Frameworks}{Spring, Spring MVC, Hibernate, Struts, iBatis, Django}
-\cvitem{Base de datos}{Oracle SQL and PL/SQL, MySQL}
-\cvitem{Versionado}{Subversion (SVN), CVS, Git}
-\cvitem{Testing}{Unit testing, Integration Testing, JUnit, Selenium}
-\cvitem{Metodología}{Agile software development, Scrum, Test Driven Development}
-\cvitem{IDE}{Eclipse, NetBeans}
-\cvitem{Servidores}{Apache Tomcat, Jetty}
-\cvitem{SO}{Linux, Windows}
+\cvitem{Languages}{Java SE (J2SE), Java EE (J2EE), Python, Shell, scripting languages}
+\cvitem{Web}{REST, HTML, CSS, JavaScript, Typescript, JQuery, AngularJS, GWT, SAP UI5, React}
+\cvitem{Frameworks}{Spring, Spring MVC, Hibernate, Struts, iBatis}
+\cvitem{Operating Systems}{Linux, Windows, Docker}
+\cvitem{Databases}{Oracle SQL and PL/SQL, MySQL, SAP HANA}
+\cvitem{Version Control}{Subversion (SVN), CVS, Git}
+\cvitem{Testing}{Unit testing, Integration Testing, JUnit, Selenium, Karma, Mocha}
+\cvitem{Methodology}{Agile software development, Scrum, Test Driven Development}
+\cvitem{IDE}{Eclipse, NetBeans, Visual Studio Code}
+\cvitem{Servers}{WebSphere, Apache Tomcat, Jetty}
+\cvitem{Build Tools}{Maven, Gradle, Ant, Webpack, Grunt, Gulp}
+\cvitem{Continuous Integration}{Jenkins, Teamcity}
 
 \end{document}
 
