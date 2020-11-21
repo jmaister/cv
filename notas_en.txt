@@ -1,9 +1,21 @@
 Jordi Burgos López
 
-
 Email: jordiburgos@gmail.com
 
 EXPERIENCE
+
+2020 - Mastercard
+
+* Paved Path
+
+As we work to enable building applications that leverage an event driven architecture and also streamline the developer journey for such applications, we endeavor to provide a supporting application framework such that business functionality can be delivered with the simplest, smallest coding effort. The business functionality is currently envisioned to be delivered as a simple jar. To realize this simple development model, the application frameworks, messaging platforms, security services and tools required to deliver, integrate and operate applications will be integrated into an application framework that provides all of the boilerplate code and “plumbing” necessary to achieve required security and operational requirements. We refer to this as the Event Framework.
+To achieve this goal we will use standards based frameworks, tools and patterns to ensure the sustainability of the platform.
+
+* Vulcan
+
+Vulcan is a tool to allow developers to quickly set up a new project by choosing the use-cases their application will implement.
+The goal of the Paved Path is to enable developers across all teams in Mastercard focus on writing the required business functionality that our customers require, in a consistent way, in accordance with the Engineering Principles. More elaboration about this can be found on this article from Steve Bagby, CTO Enterprise Architecture.
+
 
 09/01/2006 - PRESENT  GFT IT Consulting, S.L.U., Analyst-programmer
 
