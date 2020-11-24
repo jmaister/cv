@@ -1,5 +1,5 @@
 %% start of file 'moderncv jordi.tex'.
-%% Copyright 2012-2018 Jordi Burgos (jordiburgos@gmail.com).
+%% Copyright 2012-2020 Jordi Burgos (jordiburgos@gmail.com).
 %
 
 
@@ -17,8 +17,8 @@
 
 % adjust the page margins
 %\usepackage[scale=0.79]{geometry}
-\usepackage[left=2cm,right=2.5cm,top=3cm,bottom=2.5cm]{geometry}
-\setlength{\hintscolumnwidth}{2.5cm}           % if you want to change the width of the column with the dates
+\usepackage[left=2.4cm,right=2.4cm,top=2cm,bottom=2cm]{geometry}
+\setlength{\hintscolumnwidth}{2cm}           % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}      % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
@@ -30,7 +30,7 @@
 %\phone{+2~(345)~678~901}                      % optional, remove the line if not wanted
 %\fax{+3~(456)~789~012}                        % optional, remove the line if not wanted
 \email{jordiburgos@gmail.com}                          % optional, remove the line if not wanted
-\homepage{jordiburgos.com}                    % optional, remove the line if not wanted
+%\homepage{jordiburgos.com}                    % optional, remove the line if not wanted
 %\extrainfo{additional information}            % optional, remove the line if not wanted
 %\photo[64pt][0.4pt]{picture}                  % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
 %\quote{Some quote (optional)}                 % optional, remove the line if not wanted
@@ -51,15 +51,37 @@
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 
-I am a passionate developer.
-Regularly, I enjoy attending conferences to keep me up to date.
+I am a passionate software developer.
+Regularly, I enjoy attending conferences and meetups to keep me up to date.
 Besides, I like to develop personal projects to improve my knowledge.
 I like to work with people, I am nice and easy to work with.
 In addition I have experience training and mentoring team members.
 
 \section{Experience}
 
-\cventry{2016--Present}{Senior Software Engineer}{SAP}{Dublin, Ireland}{}{
+\cventry{2019--Present}{Lead Software Development Engineer}{Mastercard}{Dublin, Ireland}{}{
+Multinational Company; 18.600 employees; Financial Services, Technology.
+\begin{itemize}%
+	\item \textbf{Event Framework}: Research and Development to enable building applications using event driven architecture. Java, Spring Boot, Spring Integration.
+    \begin{itemize}%
+    	\item Design architecture and implement a Spring Boot library to enable event driven applications with several brokers (Kafka, NATS, Azure Service Bus) and cloud providers.
+    	\item Design and implement a Maven archetype generator for event driven applications and configuration.
+    	\item Investigate usage of project definition specifications like AsyncAPI.
+    \end{itemize}
+	\item \textbf{Service design bootstraping}: Research and Development to enable Mastercard developers with pre-designed project templates.
+    \begin{itemize}%
+        \item Design project strategy, project architecture and implementation details.
+    \end{itemize}
+    \item \textbf{Next Edge}: Research and Development of the next generation of Mastercard payment network.
+    \begin{itemize}%
+    	\item Engage with stakeholders (Enterprise Architecture, Shared Services and Security) to drive and understand implications for the new network.
+    	\item Investigate and implement several POC with Kafka, NATS, Azure Service Bus and Spring Boot.
+    \end{itemize}
+\end{itemize}
+}
+
+
+\cventry{2016--2019}{Senior Software Engineer}{SAP}{Dublin, Ireland}{}{
 Multinational Company; 85.000 employees; Business Operations and Customer Relations.
 \begin{itemize}%
     \item \textbf{SAP Analytics Cloud}: Collect and produce statistics for dataset fields and metadata search. Java, Spring, JMS, REST, SAP HANA SQL.
@@ -70,11 +92,9 @@ Multinational Company; 85.000 employees; Business Operations and Customer Relati
     \end{itemize}
     \item \textbf{Predictive Analytics}: Software to create Machine Learning and Big Data processing pipelines graphically. Java, JavaScript, TypeScript, Webpack, SAP HANA database, SAP UI5.
     \begin{itemize}%
-        \item Design and implement user interface architecture with Webpack and SAP UI5.
-		\item Implement application functionality in Typescript.
+        \item Design and implement user interface architecture using TypeScript, Webpack and SAP UI5.
 		\item Train and supervise junior developers in the team.
 		\item Investigate and resolve bugs from server side code base.
-		\item Identify platform improvements and document them.
     \end{itemize}
 \end{itemize}
 }
@@ -84,11 +104,10 @@ Multinational Company; 400.000 employees; IT consulting.
 \begin{itemize}%
     \item \textbf{HR suite project}: Software suite for HR related applications. Java, REST, JPA, JAX-RS, HTML, CSS, JavaScript, AngularJS, IBM WebSphere, Linux.
     \begin{itemize}%
-        \item Design and implement architecture of back-end REST services with JAX-RS and JPA on WebSphere servers.
-        \item Design and implement AngularJS user interface with connection to the REST back-end.
-        \item Investigate and select the best technologies suitable for the project.
+        \item Design and implement architecture of back-end REST services with JAX-RS and JPA on WebSphere.
+        \item Design and implement AngularJS User Interface connected to the REST back-end.
         \item Collaborate with User Experience (UX) team on the design of interface.
-        \item Work using Agile and Test Driven methodology.
+        \item Work using Agile, Design Thinking and Test Driven Development methodology.
     \end{itemize}
 \end{itemize}
 }
@@ -96,27 +115,19 @@ Multinational Company; 400.000 employees; IT consulting.
 \cventry{2006--2014}{Java Software Engineer}{GFT IT Consulting, S.L.U.}{Valencia, Spain}{}{
 Multinational Company; 4.800 employees; IT and Services industry.
 \begin{itemize}%
-    \item \textbf{Global Funds Derivatives Tracker}: Capture fund derivatives business at Deutsche Bank. It is a repository of core funds, market data, derivatives, executed trades and documentation. Java, Spring, Hibernate, Oracle PL/SQL, HTML, CSS, JavaScript, AJAX, ExtJS, Linux.
+    \item \textbf{Global Funds Derivatives Tracker}: Capture fund derivatives business at Deutsche Bank. It is a repository of core funds, market data and derivatives. Java, Spring, Hibernate, Oracle PL/SQL, HTML, CSS, JS, ExtJS, Linux.
     \begin{itemize}%
-        \item Agile methodology using Scrum to build technical solutions for banking applications.
         \item Create reusable components and code to increase developers performance.
-        \item Optimize the application at all levels: presentation, communications and database.
-        \item Provide technical support to team members.
+        \item Optimize the application at all layers. Provide technical support to team members.
     \end{itemize}
     \item \textbf{Feed Consolidation Layer}: ETL project to fetch data from several sources in proprietary formats into a unified data representation. Java,  Oracle PL/SQL, OpenAdaptor, Maven, Teamcity, Linux.
     \begin{itemize}%
         \item Improve feed processing performance to increase message volume with the same infrastructure.
-        \item Design and perform application deployments on Linux servers.
-        \item Analyse and improve the Software Development Life-Cycle (SDLC) for Source Control, Build Tools, Binary Control, Release Automation, Automated Testing and Continuous Integration.
+        \item Analyse, improve and implement the Software Development Life-Cycle (SDLC), CI and CD.
     \end{itemize}
     \item \textbf{Legal Vehicle Database}: Track legal entity population for tax reporting purposes at Deutsche Bank. Java, GWT, Hibernate, Oracle.
     \begin{itemize}%
         \item Rewrite the user interface of an inherited project using Google Web Toolkit (GWT).
-        \item Collaborate with software developers to deliver with adjusted deadline.
-    \end{itemize}
-    \item \textbf{Multichannel Platform}: Custom middleware that allows heterogeneous access to the bank mainframe resources of Bradesco Bank. Java, Eclipse Plug-in Development Environment.
-    \begin{itemize}%
-        \item Develop an Eclipse plugin which facilitate the location and communication of the processes that the platform of distribution of the channels exports or publishes.
     \end{itemize}
 \end{itemize}
 }
@@ -126,15 +137,13 @@ Local company; 5 employees; Computer material store and custom software developm
 \begin{itemize}%
     \item \textbf{Java Program Generator}: Java application generator to cut delivery times. Java, Swing, JDBC, MySQL, HTML, CSS, Linux.
     \begin{itemize}%
-        \item Design and develop the engine for code generation.
+        \item Design and develop the engine for code generation with SQL database storage.
         \item Develop a report generator, with viewer and printer.
-        \item Design database to store application information and configuration.
     \end{itemize}
     \item \textbf{Sales point program} for furniture company. Java, Swing, JDBC, MySQL.
     \begin{itemize}%
         \item Sales program for interconnected stores.
-        \item Take client requirements.
-        \item Develop application using generator and adapt according to the client requirements.
+        \item Take client requirements and develop application using generator.
     \end{itemize}
 \end{itemize}
 }
@@ -172,17 +181,18 @@ Local company; 5 employees; Computer material store and custom software developm
 \cvitemwithcomment{Catalan}{Native}{}
 
 \section{Skills}
-\cvitem{Languages}{Java SE (J2SE), Java EE (J2EE), Python, Shell, scripting languages}
+\cvitem{Languages}{Java (J2SE, J2EE), JavaScript, TypeScript, Python, Shell, scripting languages}
 \cvitem{Web}{REST, HTML, CSS, JavaScript, Typescript, React, AngularJS, SAP UI5}
-\cvitem{Frameworks}{Spring, Spring MVC, Hibernate, Struts, iBatis}
-\cvitem{Operating Systems}{Linux, Windows, Docker}
+\cvitem{Frameworks}{Spring, Spring Boot, Spring Integration, JPA, Hibernate}
+\cvitem{OS}{Linux, Windows, Docker}
 \cvitem{Databases}{Oracle SQL and PL/SQL, MySQL, SAP HANA}
-\cvitem{Version Control}{Git, Subversion (SVN), CVS}
-\cvitem{Testing}{Unit testing, Integration Testing, JUnit, Mockito, Selenium, Karma, Mocha}
-\cvitem{Methodology}{Agile software development, Scrum, Test Driven Development}
-\cvitem{Servers}{Apache Tomcat, WebSphere, Jetty}
-\cvitem{Build Tools}{Maven, Gradle, Ant, Webpack, Grunt, Gulp}
-\cvitem{Continuous Integration}{Jenkins, Teamcity}
+\cvitem{Message brokers}{Kafka, RabbitMQ, NATS}
+\cvitem{Testing}{Unit Testing, Integration Testing, JUnit, Mockito, Selenium, Karma, Mocha}
+\cvitem{Methodology}{Agile software development, Scrum, Test Driven Development (TDD)}
+\cvitem{Web servers}{Apache Tomcat, WebSphere, Jetty}
+\cvitem{Build tools}{Maven, Gradle, Ant, Webpack, Grunt, Gulp}
+\cvitem{CI}{Jenkins, Teamcity}
+\cvitem{Version control}{Git, Subversion (SVN), CVS}
 
 \end{document}
 
