@@ -6,6 +6,15 @@ EXPERIENCE
 
 2020 - Mastercard
 
+* Next Edge (Mmdu)
+
+R&D team researching and designing the next generation of the Mastercard payment network.
+
+- Engaging with stakeholders (Enterprise Architecture, Shared Services and Sercurity) to drive and understand implications for the NG MC network
+- Implemented CI/CD process to deploy applications to Azure
+- Designed and demostrated how to bridge an on-premise app using IBM MQ to an application running on Azure using Azure Service Bus.
+- Investigated several POC such as Kafka request-response, scaling statefu applications, Websocker, gRPC, Kubernetes, NGINGX and NATS.
+
 * Paved Path
 
 As we work to enable building applications that leverage an event driven architecture and also streamline the developer journey for such applications, we endeavor to provide a supporting application framework such that business functionality can be delivered with the simplest, smallest coding effort. The business functionality is currently envisioned to be delivered as a simple jar. To realize this simple development model, the application frameworks, messaging platforms, security services and tools required to deliver, integrate and operate applications will be integrated into an application framework that provides all of the boilerplate code and “plumbing” necessary to achieve required security and operational requirements. We refer to this as the Event Framework.
