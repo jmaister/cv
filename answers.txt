@@ -1,0 +1,73 @@
+https://www.linkedin.com/in/jordiburgos/
+https://github.com/jmaister/
+https://stackoverflow.com/users/1108098/jordiburgos
+
+------------------------------------------
+
+Hi,
+
+Thanks for contacting for this position.
+
+It looks good to me and I would like to know more details about it. My only concern is that I am only interested in positions that allow me to work remotely from Valencia, Spain. Would that be allowed?
+
+We could talk on Monday, at 11:00, 15:00 or 16:00 (Spanish time).
+
+---------------------------------------------
+
+Hi,
+
+Thanks for sending this role.
+
+At the moment I am looking for a 100% remote role from Spain.
+
+Would that be possible for this position? If not, do you have any other position that would allow me to work from Spain?
+
+Thanks in advance,
+Jordi 
+
+--------------------------------------------
+Hi,
+
+At the moment I am looking for a 100% remote role from Spain.
+
+Do you have any other position that would allow me to work from Spain?
+
+Thanks in advance,
+Jordi 
+
+---------------------------------------------
+
+
+Hola,
+
+Te escribo porque estoy buscando trabajo activamente. Estoy buscando roles para trabajar 100% remoto desde Valencia.
+
+¿Tienes alguna oferta que me puediera interesar?
+
+Gracias de antemano,
+
+Jordi
+
+--------------------------------------------
+
+Can you tell us in short about the exciting project you’ve worked on?
+
+Predictive Analytics (SAP): Design Machine Learning processing with an drag and drop UI. After finishing an online course of Machine Learning I started working on that project. It combined working on the drag and drop UI to draw the data paths with how the server would run the ML processes. Learned a lot, including TypeScript and how to write Webpack plugins to load SAP UI5 (UI library).
+
+Out of all the experiences in your career, what six month period was the most energizing/fun?
+
+Event Framework (Mastercard): I designed the architecture and implemented an Spring library and a project generator. Users would design their event driven API using AsyncAPI spec, then the generator created a project plus the placeholder classes for the users to implement their functions. Regular demos and reviews with external teams to validate the results.
+
+
+------------------------------------------
+
+Cover letter Athenian
+
+I am applying to the Senior Software Engineer position because it describes the experience and skills that I already have. Also, I like the field in which Athenian works and I'll be happy to work on it.
+
+In my previous role in SAP, I was working on a analytics, insights and machine learning project. It involved developing the UI to show the results using user-defined graphs. On the server side, it involved translating the user-defined graphs to the data processing engine for calculating the results.
+
+Thanks for checking my application. I am looking forward for a positive response.
+
+
+
